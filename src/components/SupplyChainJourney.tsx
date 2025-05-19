@@ -1,12 +1,12 @@
 
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
-import { Farm, Warehouse, Ship, Customer, Plug } from "lucide-react";
+import { Warehouse, Ship, Leaf, Store, Plug } from "lucide-react";
 
 const journeySteps = [
   {
     id: 1,
     name: "Farm",
-    icon: Farm,
+    icon: Leaf,
     example: "Pre-Harvest Inspection Score: 95%",
     description: "Monitor pre-harvest quality and compliance inspections"
   },
@@ -34,7 +34,7 @@ const journeySteps = [
   {
     id: 5,
     name: "Customer",
-    icon: Customer,
+    icon: Store,
     example: "Quality Check Passed – 98% Grade A",
     description: "Verify final quality and compliance checks"
   }
